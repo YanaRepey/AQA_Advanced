@@ -5,13 +5,11 @@
 // Створіть змінну radius і присвойте їй числове значення радіуса кола.
 // Обчисліть площу кола за формулою π * radius^2 і виведіть результат.
 
-let radius  = 12;
+let radius = 12;
 console.log(Math.PI);
- 
-let circleSquare = Math.PI * Math.pow(radius,2);
-console.log (circleSquare.toFixed (2));
- 
 
+let circleSquare = Math.PI * Math.pow(radius, 2);
+console.log(circleSquare.toFixed(2));
 
 // Завдання 4.2
 
@@ -19,13 +17,11 @@ console.log (circleSquare.toFixed (2));
 // Створіть змінну width і присвойте їй числове значення ширини прямокутника.
 // Обчисліть площу прямокутника за формулою length * width і виведіть результат.
 
-
 let length = 12;
 let width = 6.8;
-let square = length * width; 
+let square = length * width;
 
-console.log (square.toFixed (2));
-
+console.log(square.toFixed(2));
 
 // Завдання 4.3
 
@@ -34,8 +30,7 @@ console.log (square.toFixed (2));
 // Обчисліть об'єм циліндра за формулою π * radius^2 * height і виведіть результат.
 // Округліть кожне отримане значення до 2 значень після крапки
 
-
 let cylRadius = 8.22;
 let cylHeight = 11.84;
-let cylVol = Math.PI * Math.pow (cylRadius,2) * cylHeight;
- console.log (cylVol.toFixed (2));
+let cylVol = Math.PI * Math.pow(cylRadius, 2) * cylHeight;
+console.log(cylVol.toFixed(2));

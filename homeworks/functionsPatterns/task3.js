@@ -6,21 +6,19 @@
 // Викличте функцію divide з різними значеннями numerator і denominator, включаючи випадок, коли denominator дорівнює 0 або один з аргументів не є числом.
 // Огорніть кожен окремий виклик функції divide в try…catch.Використовуючи блок finally, виведіть повідомлення "Робота завершена" в консоль, навіть якщо помилка виникла або не виникла.
 
-function divide (numerator, denominator) {
-    if (isNaN(numerator) || isNaN(denominator)) {
-        throw new Error('Один із аргументів не є числом');
-    }
-    if (denominator === 0) {
-        throw new Error(`Не можна поділити на нуль`);
-    }
-    return numerator / denominator;
+function divide(numerator, denominator) {
+	if (isNaN(numerator) || isNaN(denominator)) {
+		throw new Error('Один із аргументів не є числом');
+	}
+	if (denominator === 0) {
+		throw new Error(`Не можна поділити на нуль`);
+	}
+	return numerator / denominator;
 }
 try {
-    console.log(divide ("hello", 0));
-}
-catch (error) {
-    console.log(error.message);
-}
-finally {
-    console.log('Робота завершена');
+	console.log(divide('hello', 0));
+} catch (error) {
+	console.log(error.message);
+} finally {
+	console.log('Робота завершена');
 }

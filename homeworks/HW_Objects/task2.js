@@ -7,11 +7,11 @@
 // Виведіть деструктуризовані змінні в консоль
 
 const book = {
-    title: "Століття Якова",
-    author: "Володимир лис",
-    year: 2016
-  };
-  const { title, author } = book;
+	title: 'Століття Якова',
+	author: 'Володимир лис',
+	year: 2016,
+};
+const { title, author } = book;
 
 console.log(`Назва книги: ${title}`);
 console.log(`Автор книги: ${author}`);

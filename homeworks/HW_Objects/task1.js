@@ -9,9 +9,9 @@
 
 let student = {};
 
-student.firstName = "Микола";
-student.lastName = "Фесенко";
+student.firstName = 'Микола';
+student.lastName = 'Фесенко';
 student.age = 22;
-student.courses = ["Математика", "Історія", "Програмування"];
+student.courses = ['Математика', 'Історія', 'Програмування'];
 
 console.log(student);

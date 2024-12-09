@@ -6,12 +6,11 @@
 // Фунція повинна викликатися, доки num не стане менше або рівне 0.
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
-function count (num) {
-    console.log (num);
-    if (num <= 0) {
-        return;
-      }
-      count (num-1); 
-    
+function count(num) {
+	console.log(num);
+	if (num <= 0) {
+		return;
+	}
+	count(num - 1);
 }
-count ((5));
+count(5);

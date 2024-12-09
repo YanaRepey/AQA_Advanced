@@ -7,8 +7,6 @@
 // Виведіть усі змінні в консоль
 
 let myAge = 35;
-let isAlreadyAdult = (myAge >= 25) ? true : false;
+let isAlreadyAdult = myAge >= 25 ? true : false;
 
-console.log ('Is already adult:', isAlreadyAdult);
-
-
+console.log('Is already adult:', isAlreadyAdult);
