@@ -6,9 +6,9 @@ const delay = 4580;
 const myText = `Sorry, I'm late for ${delay / 1000} second(s)`;
 
 function delayedMessage(msg, time) {
-  setTimeout(function () {
-    console.log(msg);
-  }, time);
+	setTimeout(function () {
+		console.log(msg);
+	}, time);
 }
 
 delayedMessage(myText, delay);
